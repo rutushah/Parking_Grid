@@ -1,0 +1,152 @@
+.bg-image {
+    background-image: url('img1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+h1,
+h3,
+h2 {
+    text-align: center;
+    line-height: 12px;
+}
+
+.home-images {
+    height: 140%;
+    width: 90%;
+
+}
+
+.home-image-text {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.home-margin {
+    margin-top: 15%;
+}
+
+.spacing {
+    margin-right: 7%;
+    
+}
+
+.home-margin1 {
+    margin-top: 3%;
+}
+
+.texting {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.moving {
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.buttonspacing {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.locationimg img,
+p {
+    width: 75%;
+    height: 100%;
+    margin-left: 12%;
+    text-align: center;
+}
+
+.locationimg p {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 2%;
+}
+
+.locationimg a {
+    text-decoration: none;
+    color: black;
+}
+
+.locationdiv h1,h3,h4{
+    
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.locationdrop {
+    margin-left: 8%;
+}
+.locationdrop ul,li,a,button,input{
+    color: white;
+}
+.locationdrop button{
+    color: white;
+    padding: 1% 6% ;
+    text-align: center;
+}
+.locationdrop button:hover{
+    color: white;
+}
+.locationdrop  input{
+    padding: 0.8% 5%;
+    text-align: center;
+}
+.loctionnextbutton{
+    
+    text-align: center;
+    
+}
+.loc{
+    text-align: center;
+}
+
+.optionpad{
+    padding: 5% 8%;
+    color: white;
+}
+.selectclass{
+    color: white;
+    padding: 1% 4%;
+    font-size: 1.1rem;
+}
+.optionpad1{
+    letter-spacing: 0.2rem;
+}
+
+.confirmtext{
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-weight: 500; 
+}
+
+.spacing1 {
+    
+    margin-left: 28%;
+}
+
+.slotbox{
+    padding: 1% 2%;
+}
+
+.aboutustext{
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: left;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+}
+.aboutustext1{
+    font-weight: bold;
+}

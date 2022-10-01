@@ -1,0 +1,154 @@
+body {
+    background: #f5f5f5;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.socialstyle{
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+label {
+    font-weight: 600;
+    color: #555;
+}
+
+.form-control {
+    box-shadow: none;
+    border-color: #ddd;
+}
+
+.form-control:focus {
+    border-color: #0a1237; 
+}
+
+.login-form {
+    width: 500px;
+    margin: auto;
+    padding: 30px 0;
+}
+.login-form form {
+    color: #434343;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.login-form h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.login-form .avatar {
+    color: #fff;
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 9;
+    /* background: #0dcaf0; */
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .avatar i {
+    margin-top: 22px;
+    font-size: 62px;
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form .form-control, .login-form .btn {
+    min-height: 45px;
+    border-radius: 2px; 
+    transition: all 0.5s;
+}
+.login-form .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.mb-3 input{
+    gap: 4px;
+}
+
+/* .login-form .btn {
+    border: none;
+    line-height: normal;
+    background-color: #f8f9fa;
+    color: #0a1237;
+    
+} */
+
+/* .form-group .btn{
+    background-color: #f8f9fa;
+    color: #0a1237;
+} */
+
+.login-form .btn:hover, .login-form .btn:focus {
+    background: #06677a;
+}
+
+.login-form .checkbox-inline {
+    float: left;
+}
+.login-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+
+.login-form .forgot-link {
+    float: right;
+}
+.login-form .small {
+    font-size: 13px;
+}
+
+
+.login-form :hover{
+    color: #06677a;
+}
+
+/* Header css*/
+#navbarSupportedContent > ul > li a{
+    color: #f8f9fa;
+}
+
+#navbarSupportedContent > ul > li a:hover{
+    background-color: #f8f9fa;
+    border-radius: 50px;
+    color: #0a1237;
+}
+
+
+/* Footer css */
+footer{
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+}
+
+h6{
+    margin-top: 5%;
+}
+
+p a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
