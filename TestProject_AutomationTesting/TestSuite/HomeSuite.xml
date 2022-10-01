@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parking Grid Home Suite" verbose="10" parallel="false" thread-count="1">
+    <parameter name="test.url" value="http://localhost/parkingGrid/home.php"/>
+
+<!--    <test name="PG_HomePage_001 :: To verify the title of the Home Page">-->
+<!--        <classes>-->
+<!--            <class name="com.index.HomeIndex.HomeIndex">-->
+<!--                <methods>-->
+<!--                    <include name="verifyPageTitle"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="PG_HomePage_006 :: To verify user is redirected to Select Role page when user clicks on About us button from header.">-->
+<!--        <classes>-->
+<!--            <class name="com.index.HomeIndex.SelectRoleIndex">-->
+<!--                <methods>-->
+<!--                    <include name="toVerifyUserRedirectedToSelectRole"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="TestCase:: PG_SelectRole_001 :: To verify user is redirected to Select Role Page when user clicks on following elements from Home Page on About us, Contact Us, Register and Login Button.">
+        <classes>
+            <class name="com.index.HomeIndex.SelectRoleIndex">
+                <methods>
+                    <include name="toVerifyUserRedirectedToSelectRole"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestCase :: PG_SelectRole_002 :: To verify the title of Select Role Page is Select Role.">
+        <classes>
+            <class name="com.index.HomeIndex.SelectRoleIndex">
+                <methods>
+                    <include name="toVerifySelectRolePageTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestCase :: PG_SelectRole_003 :: To verify user can see the logo of Parking Grid on the top left corner of the Select Role page.">
+        <classes>
+            <class name="com.index.HomeIndex.SelectRoleIndex">
+                <methods>
+                    <include name="toVerifyParkingGridLogo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestCase :: PG_SelectRole_004 :: To verify user can see Admin,Customer and Next Button on Select Role Page Form.">
+        <classes>
+            <class name="com.index.HomeIndex.SelectRoleIndex">
+                <methods>
+                    <include name="toVerifyUserRoleForm"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestCase :: PG_SelectRole_005 :: To verify user can see Contact Us,About us and home on Select Role Page's Header.">
+        <classes>
+            <class name="com.index.HomeIndex.SelectRoleIndex">
+                <methods>
+                    <include name="toVerifyHeaderOfSelectRolePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestCase :: PG_SelectRole_006 :: To verify user gets validation message when user clicks on Next Button without selecting the Role.">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.index.HomeIndex.SelectRoleIndex">
+                <methods>
+                    <include name="toVerifyNextButtonValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestCase :: PG_SelectRole_007 :: To verify user is redirected to Admin Login Page when user clicks on Admin button.">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.index.HomeIndex.SelectRoleIndex">
+                <methods>
+                    <include name="toVerifyUserIsRedirectedToAdminPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestCase :: PG_SelectRole_008 :: To verify user is redirected to Customer Login Page when user clicks on Customer button.">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.index.HomeIndex.SelectRoleIndex">
+                <methods>
+                    <include name="toVerifyUserIsRedirectedCustomerPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
